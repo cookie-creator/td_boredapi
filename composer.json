@@ -1,0 +1,23 @@
+{
+    "name": "vagrant/task_php_script",
+    "type": "project",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "7.1.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Script\\Entrypoint\\": "script/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cookie"
+        }
+    ],
+    "minimum-stability": "dev"
+}
