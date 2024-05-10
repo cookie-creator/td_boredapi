@@ -45,6 +45,3 @@ if ($appArgs->sender == 'file') {
 }
 
 $output->handle($recomendation);
-
-td_bored
-developed as a script
